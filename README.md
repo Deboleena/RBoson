@@ -6,7 +6,8 @@ Install AWS CLI from a console running: pip install awscli --upgrade --user\
 Install RBoson from R:\
 install.packages("devtools")\
 library(devtools)\
-install_github("Deboleena/RBoson")
+install_github("Deboleena/RBoson")\
+require(RBoson)
 
 ## One-time configuration
 AWSConfigure(\
