@@ -11,8 +11,8 @@ require(RBoson)
 
 ## One-time configuration
 AWSConfigure(\
-  aws.access.key.id = '****',\
-  aws.secret.access.key = '****'\
+  aws.access.key.id = '\*\*\*\*',\
+  aws.secret.access.key = '\*\*\*\*'\
 )
 
 ## Execution
