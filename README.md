@@ -47,3 +47,9 @@ out = SubmitBosonTasks (\
   blocking.call = TRUE\
 )\
 print(out)\
+
+\# Step 3: Cleanup\
+BatchCleanup(batch.id = 1, s3.bucket = 's3://boson-base/')
+
+## Cleanup
+BosonCleanup()
