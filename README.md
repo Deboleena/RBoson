@@ -15,12 +15,6 @@ AWSConfigure(\
 )
 
 ## Execution
-BosonSetup (\
-  service.role.arn = "arn:aws:iam::757968107665:role/BosonBatch",\
-  subnets = c("subnet-1a69d77d","subnet-4da19315","subnet-abfc2ce2"),\
-  security.group.ids = "sg-ddd562a7"\
-)
-
 \# Setup \#\
 BosonSetup (\
   service.role.arn = "arn:aws:iam::757968107665:role/BosonBatch",\
