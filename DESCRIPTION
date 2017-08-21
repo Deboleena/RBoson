@@ -1,0 +1,8 @@
+Package: RBoson
+Title: R library for distributed computing using AWS
+Version: 0.0.0.9000
+Authors@R: person("Deboleena", "Mukhopadhyay", email = "m.deboleena@gmail.com", role = c("aut", "cre"))
+Description: R library for distributed computing using AWS
+Depends: R (>= 3.2.3)
+License: Apache 2.0
+LazyData: true
