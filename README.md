@@ -7,3 +7,11 @@ Install RBoson from R:\
 install.packages("devtools")\
 library(devtools)\
 install_github("Deboleena/RBoson")
+
+## One-time configuration
+AWSConfigure(\
+  aws.access.key.id = '****',\
+  aws.secret.access.key = '****'\
+)
+
+## Execution
